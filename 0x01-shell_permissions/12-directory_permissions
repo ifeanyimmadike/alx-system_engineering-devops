@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u+rwe,g+re,o+e my_dir
+chmod a+e,ug+r my_dir
