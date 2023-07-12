@@ -1,2 +1,3 @@
 #!/bin/bash
-echo | sort
+echo "" | tr ' ' '\n' | sort | uniq -u
+
